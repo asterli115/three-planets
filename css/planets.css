@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.label {
+    color: white;
+}
+
+.btns {
+    background-color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mainBtn {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.earthBtn {
+    position: absolute;
+    top: 80px;
+    left: 15px;
+}
+
+.btns:hover {
+    color: white;
+    background-color: black;
+}
